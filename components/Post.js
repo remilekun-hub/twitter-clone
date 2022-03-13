@@ -8,7 +8,7 @@ import {
   SwitchHorizontalIcon,
   TrashIcon,
 } from "@heroicons/react/outline";
-import { HeartIconFilled } from "@heroicons/react/solid";
+import { HeartIconFilled } from "@heroicons/react/outline";
 import { useSession } from "next-auth/react";
 import { useRecoilState } from "recoil";
 import React, { useState, useEffect } from "react";
