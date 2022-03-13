@@ -171,11 +171,11 @@ function Post({ id, post, postPage }) {
             }}
           >
             <div className="icon group-hover:bg-pink-600/10">
-              {liked
-                ? // <HeartIconFilled className="h-4 sm:h-5 text-pink-600" />
-                  ""
-                : // <HeartIcon className="h-4 sm:h-5 group-hover:text-pink-600" />
-                  ""}
+              {liked ? (
+                <HeartIconFilled className="h-4 sm:h-5 text-pink-600" />
+              ) : (
+                <HeartIcon className="h-4 sm:h-5 group-hover:text-pink-600" />
+              )}
               {likes.length > 0 && (
                 <span
                   className={`group-hover:text-pink-600 text-sm ${
